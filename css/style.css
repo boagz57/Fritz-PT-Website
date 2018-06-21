@@ -1,0 +1,1247 @@
+/* Site Wide Styles ---------------------------------------------------*/
+
+body, html, img, ul, li, section, div, article, h1, h2, h3, h4, a, p {
+    margin:0;
+    padding:0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.pageWrap {
+    font-family: Arial;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
+.pageMainTitle {
+    color: #982304;
+    font: italic 700 60px / 48px Arial;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.26);
+    padding: 57px 0 25px 8%;
+}
+
+.mainTitleUnderline {
+    margin-left: 7%;
+    width: 700px;
+    height: 4px;
+} 
+
+
+.Testimonials {
+    position: absolute;
+    top: 275px;
+    left: 72%;
+    width: 400px;
+}
+
+.Testimonials p {
+    color: #4d4a49;
+    font: italic 700 22px Arial;
+    line-height: 1.5em;
+}
+
+.Testimonials h3 {
+    color: #a02b09;
+    font: italic 700 27px / 48px Arial;
+    padding: 0 0 20px 40px;
+}
+
+
+/* Page Styles (Full Width) ---------------------------------------------------*/
+
+.pageWrap {
+     max-width: 1920px;   
+}
+
+/* Header Styles (Full Width) ---------------------------------------------------*/
+
+header {
+    background: linear-gradient(-90deg, #ffffff 0%, #f9f9f9 0%, #f8f7f7 0%, #f8f7f7 0%, #ffffff 0%, #ffffff 0%, #f9f9f9 0%, #ffffff 0%, #ffffff 0%, #ffffff 0%, #f7f7f7 84%, #f5f5f5 99%);
+    background: -webkit-linear-gradient( 135deg, #ffffff 0%, #f9f9f9 0%, #f8f7f7 0%, #f8f7f7 0%, #ffffff 0%, #ffffff 0%, #f9f9f9 0%, #ffffff 0%, #ffffff 0%, #ffffff 0%, #f7f7f7 84%, #f5f5f5 99%);
+    background: -moz-linear-gradient(135deg, #ffffff 0%, #f9f9f9 0%, #f8f7f7 0%, #f8f7f7 0%, #ffffff 0%, #ffffff 0%, #f9f9f9 0%, #ffffff 0%, #ffffff 0%, #ffffff 0%, #f7f7f7 84%, #f5f5f5 99%);
+    height: 201px;
+    width: 100%;
+}
+
+.no-cssgradients {
+     background: url(/images/header-gradient.jpg);   
+}
+
+.leftRedCornerLarge {
+    width: 197px;
+    position: relative;
+    z-index: 2;
+}
+
+.fadedImage {
+    width: 171px;
+    position: absolute;
+    top: 11px;
+    z-index: 1;
+}
+
+.logoWrap {
+    width: 293px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+.headerH1 {
+    color: #990000;
+    font: italic 700 41.01px Arial;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.39);
+    position: absolute;
+    top: 13px;
+    right: 76px;
+}
+
+.callUsToday {
+    position: absolute;
+    top: 80px;
+    right: 47px;
+    color: #990000;
+    font: italic 700 30px Arial;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.46);
+}
+
+/* Navigation Styles (Full Width) ---------------------------------------------------*/
+
+.headerNavWrap {
+    position: relative;
+    bottom: 55px;
+    width: 1020px;
+    float: right;
+    margin-right: 150px;
+}
+
+.headerNavWrap ul {
+    font: 700 22px lato;
+    list-style-type: none;
+}
+
+.headerNavWrap li {
+    float: right;
+    margin: 0 1.8%;
+    line-height: 2.3em;
+}
+
+.headerNavWrap a {
+    color: #3f3e3c;
+    text-decoration: none;
+    display: block;
+    line-height: 2.3em;
+}
+
+.headerNavWrap a:hover {
+    border-bottom: 3px solid #990000;   
+}
+
+/* Footer Styles (Full Width) ---------------------------------------------------*/
+
+footer {
+    background-color: white;
+    margin-top: 110px;
+}
+
+.footerOneThird {
+    width: 25.4%;
+    height: auto;
+    display: inline-block;
+    margin: 50px 3%;
+    text-align: left;
+    max-width: 375px;
+}
+
+.footerHeader {
+    color: #982304;
+    font: 700 24px Lato;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e7e9;
+}
+
+.footerText {
+    margin: 20px 0 40px 0;
+    color: #080707;
+    font: 400 18px Lato;
+}
+
+.footerButton {
+    color: #982304;
+    font: 400 18px Lato;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.footerCopyright {
+    padding:  40px 0;
+    border-top: 1px solid #e5e7e9;
+    text-align: center;
+}
+
+.footerOneThirdWrap {
+    text-align: center;
+}
+
+.designelopersFirst {
+    color: #072c52
+}
+
+.designelopersLast {
+    color: #f26101;
+}   
+
+
+
+/* HomePage Grid 1 Styles (Full Width) ---------------------------------------------------*/
+
+.grid1P {
+    color: #090909; 
+    font: italic 700 28px Arial;
+    margin-top:93px; 
+    width: 689px;
+    margin-left: 226px; 
+    position: relative;
+    z-index: 3;
+}
+
+.grid1Ul {
+    color: #982304;
+    font: italic 700 35px / 48px Arial;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.32);
+    list-style-type: none;
+    position: absolute;
+    top: 391px;
+    left: 321px;
+    line-height: 1.7em;
+    z-index: 3;
+}
+
+.grid1Wrap {
+    height: 627px;
+    padding-top: 1px;
+    margin-top: -1px;
+}
+
+.sliderImage {
+    width: 505px;
+    position: absolute;
+    top: 212px;
+    right: 230px;
+}
+
+/* HomePage Grid 2 Styles (Full Width) ---------------------------------------------------*/
+
+.grid2Wrap {
+    background-color: #f3f4f5;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.oneThirdGrid2 {
+    width: 25.4%;
+    height: 533px;
+    display: inline-block;
+    margin: 37px 3%;
+    vertical-align: top;
+    max-width: 375px;
+}
+
+.oneThirdGrid2 a{
+    text-decoration: none;
+    color: #0a0a0a;
+}
+.grid2TitleBox {
+    width: 100%;
+    padding: 27px 0;
+    font: 400 1.3em lato;
+    box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.35);
+    background: white url(../images/Shape-3-copy-4.png) no-repeat bottom right;
+}
+
+.grid2ImageWrap {
+    width: 100%;
+    margin-top: 57px;
+}
+
+.grid2TextBoxWrap {
+    height: 100px;
+    background-color: white;
+    text-align: left;
+    padding: 30px 12%;
+    color: #040303;
+    font: 400 18px Arial;
+}
+
+
+
+/* StaffPage Grid 1 Styles (Full Width) ---------------------------------------------------*/
+
+.staffCategories {
+    text-align: left;
+    color: #0a0909;
+    font: 700 30px Lato;
+}
+
+.staffNameBox {
+    box-shadow: 3px 6px 3.84px 0.16px rgba(0, 0, 0, 0.27);
+    width: 440px;
+    height: 100px;
+    margin-left: 40px;
+    background: url(../images/Shape-3-copy-5.png) no-repeat bottom right;
+    background-color: white;
+    position: relative;
+    z-index: 4;
+    overflow: hidden;
+    float: left;
+    margin-top: 46px;
+}
+
+.staffNameBox img {
+    float: left;
+    width: 105px;
+}
+
+.staffNameBox h3 {
+    color: #0a0909;
+    font: 400 30px Lato;
+    margin-left: 26px;
+    float: left;
+}
+
+.staffNameBox p {
+    float: right;
+    width: 55%;
+    height: 35px;
+    font-family: lato;
+    position: relative;
+    right: 71px;
+    top: 5px;
+    padding-top: 8px;
+    border-top: 1px solid #ecebeb; 
+    line-height: 1.4em;
+}
+
+.staffCategoriesWrap {
+    padding: 46px 0 80px 10%;
+}
+
+.staffCategoriesWrap a {
+    color: #0a0909;  
+    text-decoration: none;  
+}
+
+.staffGrid2Wrap {
+    background-color: #f7f8f8; 
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Hours Page Grid 1 Styles (Full Width) ---------------------------------------------------*/
+
+
+.hoursTextBox {
+    color: #1a1919;
+    font: italic 700 30px / 48px Arial;
+    margin: 69px 0 0 11%;
+    position: relative;
+    z-index: 3;
+}
+
+.hoursTextBoxSpan {
+    color: #982304;
+}
+
+
+/* Individual Staff Page Grid 1 Styles (Full Width) ---------------------------------------------------*/
+
+.individualGrid1Wrap {
+    margin: 50px 0 0 150px;
+    position: relative;
+    z-index: 3;
+}
+
+.individualStaffImgWrap {
+    width: 25%;
+    max-width: 395px;
+    min-width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.individualPageTextBox { 
+    width: 80%;
+    padding-top: 27px;
+    font: 400 24px Lato;
+    line-height: 1.3em;
+}
+
+.individualStaffCertification {
+    color: #0a0909;
+    font: 700 30px Lato;
+    padding: 30px 0 10px 0;
+    line-height: 1.7em;
+}
+
+.individualPageline {
+    width: 40%;
+}
+
+.IndividualCharacter {
+   color: #982304;
+   font-size: 48px;   
+}
+
+
+/* Services Page Grid 1 Styles (Full Width) ---------------------------------------------------*/
+
+.Servicesh1 {
+    text-align: left;
+    color: #0a0909;
+    font: 700 30px Lato;
+    margin: 0 50% 0 10%;
+    padding: 70px 0 30px 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.ServicesText {
+    color: #0a0909;
+    font: 400 24px 'lato';
+    width: 55%;
+    margin: 50px 0 0 13%;
+    position: relative;
+    z-index: 3;
+    line-height: 1.3em;
+}
+
+/* About Page Grid 1 Styles (Full Width) ---------------------------------------------------*/
+
+.aboutPageText {
+    color: #0a0909;
+   font: 400 24px Lato; 
+    width: 57%;
+    margin: 49px 0 0 10%;
+    position: relative;
+    z-index: 3;
+}
+
+
+/* Contact Page Grid 1 Styles (Full Width) ---------------------------------------------------*/
+
+
+.contactPageText {
+    color: #262626;
+    font: 700 30px Lato;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.26);
+    margin: 53px 0 53px 9.6%;
+}
+
+.contactPageText2 {
+    width: 41.2%;
+    color: #4e4e4e;
+    font: 700 24px Lato;
+    margin-left: 10.8%;
+    position: relative;
+    z-index: 3;
+    line-height: 1.3em;
+}
+
+.contactPageSpan {
+    color: #982304;
+}
+
+.contactPageGrid1Wrap {
+    margin-bottom: 100px;
+}
+
+.contactPageGoogleMapButton {
+    width: 836px;
+    height: 98px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.75);
+    color: #982304;
+    font: 700 48px Arial;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    background: url(../images/google-pin-image.png) no-repeat center right, url(../images/googlemapbutton.png) no-repeat left;
+    background-position: 90%, 0;
+    margin: 100px auto 0 auto;
+    display: block;
+    background-color: #f6f6f6;
+}
+
+.GoogleMapButtonText {
+   margin-left: 24%;   
+}
+
+
+@media screen and (max-width: 1661px ) {
+    
+/* HomePage Grid 1 Styles (max-width: 1661px) ---------------------------------------------------*/
+ 
+.grid1P {
+    color: #090909; 
+    font: italic 700 28px Arial;
+    margin-top:93px; 
+    width: 689px;
+    margin-left: 106px;   
+}
+
+.grid1Ul {
+    color: #982304;
+    font: italic 700 35px / 48px Arial;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.32);
+    list-style-type: none;
+    position: absolute;
+    top: 391px;
+    left: 201px;
+    line-height: 1.7em;
+}
+    
+.sliderImage {
+    width: 505px;
+    position: absolute;
+    top: 212px;
+    right: 100px;
+}
+    
+}
+
+
+@media screen and (max-width: 1615px) {
+    
+/* Navigation Styles (max-width: 1615px) ---------------------------------------------------*/
+    
+.headerNavWrap {
+	margin-right: 100px;
+}
+    
+}
+
+
+
+@media screen and (max-width: 1560px) {
+    
+/* Navigation Styles (max-width: 1560px) ---------------------------------------------------*/
+    
+	.headerNavWrap ul {
+		font-size: 18px;
+	}
+}
+
+
+
+@media screen and (max-width: 1463px) {
+    
+/* Header Styles (max-width: 1463px) ---------------------------------------------------*/    
+    
+	.logoWrap {
+		left: 80px;
+		width: 223px;
+		top: 30px;
+	}
+	
+	.headerH1 {
+		font-size: 36px;
+	}
+	
+	.callUsToday {
+		font-size: 26px;
+	}
+	
+	.sliderImage {
+		right: 0px;
+	}
+    
+    
+/* Services Page Styles (max-width: 1463px) ---------------------------------------------------*/
+    
+    .Testimonials {
+      display: none;    
+    }
+    
+   .ServicesText {
+      width: 75%;   
+   }
+    
+/* Services Page Styles (max-width: 1463px) ---------------------------------------------------*/
+    
+   .aboutPageText {
+      width: 80%;   
+   }
+    
+}
+
+
+@media screen and (max-width: 1280px) {
+
+/* Page Styles (1280 min-width) ---------------------------------------------------*/
+
+.pageWrap {
+     max-width: 1280px;   
+}
+
+/* Header Styles (max-width 1280) ---------------------------------------------------*/
+
+header {
+    background: linear-gradient(-90deg, #ffffff 0%, #f9f9f9 0%, #f8f7f7 0%, #f8f7f7 0%, #ffffff 0%, #ffffff 0%, #f9f9f9 0%, #ffffff 0%, #ffffff 0%, #ffffff 0%, #f7f7f7 84%, #f5f5f5 99%);
+    height: 181px;
+    width: 100%;
+}
+
+.logoWrap {
+    width: 233px;
+    top: 23px;
+    left: 80px;
+}
+
+.headerH1 {
+    color: #990000;
+    font: italic 700 31.01px Arial;
+    top: 29px;
+    right: 86px;
+}
+
+.callUsToday {
+    top: 90px;
+    right: 47px;
+}
+
+/* Navigation Styles (max-width 1280px) ---------------------------------------------------*/
+
+.headerNavWrap {
+    width: 870px;
+    margin-right: 50px;
+    bottom: 45px;
+}
+
+/* HomePage Grid 1 Styles (max-width 1280px) ---------------------------------------------------*/
+
+.grid1P {
+    font-size: 24px;
+    margin-left: 116px;
+}
+    
+.grid1Ul {
+    color: #982304;
+    font: italic 700 30px / 48px Arial;
+    top: 371px;
+    left: 181px;
+}
+
+.grid1Wrap {
+    height: 567px;
+}
+
+.sliderImage {
+    width: 455px;
+    top: 192px;
+    right: 80px;
+}
+
+/* HomePage Grid 2 Styles (max-width 1280px) ---------------------------------------------------*/
+
+.grid2Wrap {
+    background-color: #f3f4f5;
+    width: 100%;
+    text-align: center;
+}
+
+.oneThirdGrid2 {
+    height: 523px;
+}
+
+.grid2TextBoxWrap {
+    height: 115px;
+}
+    
+}
+
+
+@media screen and (max-width: 1255px) {
+    
+    
+/* Site Wide Styles (max-width 1255px) ---------------------------------------------------*/
+    
+    .pageMainTitle {
+        font-size: 50px;    
+    }
+    
+    .mainTitleUnderline {
+         width: 500px;   
+    }
+    
+    
+/* Navigation Styles (max-width 1255px) ---------------------------------------------------*/    
+    
+    .headerNavWrap ul {
+      font-size: 16px;  
+    }
+    
+    .callUsToday {
+       font-size: 24px;  
+        top: 80px;
+    }
+    
+    
+/* HomePage Grid 1 Styles (max-width 1255px) ---------------------------------------------------*/
+    
+    
+   .grid1P {
+      font-size: 22px;
+     width: 550px;
+   }
+    
+  .grid1Ul {
+     font-size: 25px; 
+      left: 150px;
+      top: 350px;
+  }
+    
+  .sliderImage {
+     width: 400px;   
+  }
+    
+  .grid1Wrap {
+     height: 500px;   
+  }
+    
+    
+/* Staff Page Styles (max-width 1280px) ---------------------------------------------------*/
+    
+  .staffCategories {
+     font-size: 24px;     
+  }
+    
+  .staffCategoriesWrap {
+    padding-left: 8%;
+  }  
+  
+}
+    
+    
+ @media screen and (max-width: 1103px) {
+     
+     
+ /* Header Styles (1103px) ---------------------------------------------------*/
+     
+  header {
+    height: 170px  
+  }
+     
+  .fadedImage {
+     display: none;   
+  }
+    
+  .logoWrap {
+     width: 180px;
+      top: 30px;
+      left: 40px;
+  }
+     
+  .leftRedCornerLarge {
+        width: 150px   
+  }
+     
+  .headerNavWrap {
+     width: 700px;
+      bottom: 
+  }
+     
+  .headerNavWrap ul {
+     font-size: 14px;   
+      position: relative;
+  }
+     
+  .headerH1 {
+         font-size: 28px;
+  }
+     
+  .callUsToday {
+         font-size: 18px;    
+  }
+     
+  
+/* HomePage Grid 1 Styles (1103px) ---------------------------------------------------*/
+     
+     
+  .grid1P {
+    margin-left: 40px; 
+  }
+     
+  .grid1Ul {
+    left: 70px;   
+  }
+     
+     
+  .sliderImage {
+     right: 20px;  
+      width: 390px
+  }
+     
+     
+/* HomePage Grid 2 Styles (1103px) ---------------------------------------------------*/
+  
+   .grid2TitleBox {
+      font-size: 18px;  
+  }
+     
+     
+/* Contact Page Styles (1103px) ---------------------------------------------------*/
+     
+     .contactPageGoogleMapButton {
+        width: 700px;
+        font-size: 40px;
+         background-position: 95%, 0;
+     }
+     
+     .GoogleMapButtonText {
+        margin-left: 35%;
+         
+     }
+     
+     
+/* Individual Page Styles (1103px) ---------------------------------------------------*/
+     
+    .individualPageTextBox {
+       width: 90%; 
+    }
+     
+    .individualGrid1Wrap {
+       margin-left: 80px;   
+    }
+     
+ }
+
+
+ @media screen and (max-width: 1010px) {
+     
+/* HomePage Grid 2 Styles (1010px) ---------------------------------------------------*/
+     
+     .oneThirdGrid2 {
+          width: 35%;  
+         margin: 37px 5%;
+     }
+     
+ }
+    
+
+ @media screen and (max-width: 890px) {
+     
+     
+/* Header Styles (890px) ---------------------------------------------------*/    
+     
+    .leftRedCornerLarge {
+       display: none; 
+    }
+     
+     .logoWrap {
+        left: 20px;
+         top: 25px;
+         width: 150px;
+         left: 20px
+     }
+     
+     .callUsToday {
+        top: 85px   
+     }
+  
+     .headerH1 {
+        font-size: 24px;   
+         right: 20px;
+     }
+     
+     
+/* HomePage Grid 1 Styles (890px) ---------------------------------------------------*/
+     
+     .sliderImage {
+       width: 309px;   
+     }
+     
+     .grid1P {
+        font-size: 18px;  
+         width: 400px;
+         top: -40px;
+     }
+     
+     .grid1Ul {
+        font-size: 20px;
+         top: 300px;
+         line-height: 1.8em
+     }
+     
+     .grid1Wrap {
+        height: 400px;   
+     }
+     
+     
+/* HomePage Grid 2 Styles (890px) ---------------------------------------------------*/
+     
+     .grid2Wrap {
+       padding-bottom: 60px;   
+    }
+     
+    .oneThirdGrid2 {
+       width: 50.4%;
+       min-width: 375px;
+   }
+
+     
+   .grid2ImageWrap {
+      margin-top: 35px;   
+   }
+     
+     
+/* Footer Styles (890px) ---------------------------------------------------*/    
+     
+ footer {
+   padding-top: 20px;   
+ }
+
+.footerOneThird {
+    width: 80.4%;
+    text-align: center;
+    display: block;
+    max-width: none;
+    margin: 40px auto;
+}
+     
+     
+/* Services Page Styles (max-width: 890px) ---------------------------------------------------*/
+    
+   .aboutPageText {
+      font-size: 1.3em;   
+   }  
+     
+     
+/* Individual Page Styles (max-width: 890px) ---------------------------------------------------*/
+     
+    .individualGrid1Wrap {
+       margin-left: 60px;   
+    }
+     
+    .individualPageTextBox {
+       font-size: 20px;   
+    }
+     
+    .IndividualCharacter {
+       font-size: 38px;   
+    }
+     
+ }
+
+
+@media screen and (max-width: 781px) {
+    
+    
+/* Contact Page Styles (781px) ---------------------------------------------------*/
+   
+     .contactPageGoogleMapButton {
+          width: 400px; 
+         background-image: url(../images/google-pin-image.png);
+     }
+    
+    .GoogleMapButtonText {
+       margin-left: -50px;
+    }
+    
+    .contactPageText {
+       font-size: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .contactPageText2 {
+       width: 85%;   
+        font-size: 22px;
+    }
+    
+}
+
+
+@media screen and (max-width: 710px) {
+    
+    
+/* Site Wide Styles (710px) ---------------------------------------------------*/
+    
+    .pageMainTitle {
+       font-size: 40px; 
+    }
+    
+    .mainTitleUnderline {
+       width: 75%;   
+    }
+    
+    
+/* Header Styles (710px) ---------------------------------------------------*/
+    
+    header {
+      height: 140px; 
+    }
+    
+    .headerH1 {
+       font-size: 20px; 
+    }
+    
+    .callUsToday {
+       font-size: 16px;  
+        top: 70px;
+    }
+    
+/* Navigation Styles (710px) ---------------------------------------------------*/
+
+ .headerNavWrap {
+    position: static;
+     float: none;
+     text-align: center;
+     width: 100%;
+ }
+    
+    .headerNavWrap ul {
+         font-size: 20px;
+    }
+    
+    .headerNavWrap li {
+      float: none;
+        margin: 0;
+        box-shadow: 0px 3px 4px 0.00px rgba(0, 0, 0, 0.35);
+        background: url(../images/Shape-3-copy-4.png) no-repeat bottom right;
+    }
+    
+    .headerNavWrap ul li a {
+       line-height: 3.3em;   
+    }
+    
+/* HomePage Grid 1 Styles (710px) ---------------------------------------------------*/
+    
+ .grid1Wrap {
+    display: none;   
+ }
+    
+    
+/* HomePage Grid 2 Styles (710px) ---------------------------------------------------*/
+    
+    .oneThirdGrid2 {
+       margin-top: 70px;    
+    }
+    
+    
+/* Services page Styles (710px) ---------------------------------------------------*/    
+   
+    .Servicesh1 {
+       margin-right: 30%;    
+    }
+    
+    .ServicesText {
+       font-size: 1.1em;   
+    }
+    
+    
+/* Services Page Styles (max-width: 710px) ---------------------------------------------------*/
+    
+   .aboutPageText {
+      width: 80%;   
+   } 
+    
+    
+/* Staff Page Styles (max-width: 710px) ---------------------------------------------------*/
+    
+    .staffNameBox {
+       margin-left: 0px;   
+    }
+    
+/* Individual Page Styles (max-width: 710px) ---------------------------------------------------*/
+     
+    .individualGrid1Wrap {
+       margin-left: 50px;   
+    }
+    
+    .individualPageTextBox {
+       width: 90%;
+        font-size: 18px;
+        line-height: 1.4em
+    }
+    
+    .individualStaffImgWrap {
+        min-width: 200px;
+    }
+     
+    .IndividualCharacter {
+       font-size: 38px;   
+    }
+    
+    .individualStaffCertification {
+       font-size: 24px;   
+    }
+    
+/* Hours Page Styles (max-width: 710px) ---------------------------------------------------*/
+    
+    .hoursTextBox {
+       font-size: 27px;
+        line-height: 1.7em;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    
+/* Site Wide Styles (500px) ---------------------------------------------------*/    
+    
+    .pageMainTitle {
+       font-size: 35px; 
+    }
+    
+    
+/* Header Styles (500px) ---------------------------------------------------*/
+    
+    .headerH1 {
+       display: none;   
+    }
+    
+    .logoWrap {
+       top: 30px;  
+        left: 15px;
+    }
+    
+    .callUsToday {
+       top: 30px;   
+        right: 15px;
+        font-size: 16px;
+    }
+    
+/* HomePage Grid 2 Styles (500px) ---------------------------------------------------*/
+    
+    .grid2Wrap {
+       padding-top: 70px;
+        padding-bottom: 30px;
+    }
+    
+  .oneThirdGrid2 {
+      min-width: 275px ;
+      margin: 0px 3% 40px 3%;
+      height: 480px;
+  }
+    
+/* Services Page Styles (500px) ---------------------------------------------------*/
+    
+    .ServicesText {
+        margin-left: 10%;
+        width: 85%;
+        font-size: 1em;
+    }
+    
+    .Servicesh1 {
+       margin-right: 10%;    
+    }
+    
+    
+/* Contact Page Styles (500px) ---------------------------------------------------*/
+    
+    .contactPageGoogleMapButton {
+         display: none; 
+    }
+    
+    .contactPageText {
+       font-size: 20px; 
+        margin-left: 7%;
+        width: 80%;
+    }
+    
+    .contactPageText2 {   
+        font-size: 16px;
+        margin-left: 7%;
+    }
+    
+    
+/* About Page Styles (max-width: 500px) ---------------------------------------------------*/
+    
+   .aboutPageText {
+      margin-left: 7%; 
+       font-size: 1em;
+   }
+    
+/* Hours Page Styles (max-width: 500px) ---------------------------------------------------*/
+    
+    .hoursTextBox {
+       font-size: 19px;
+        line-height: 1.7em;
+        margin-left: 7%;
+        margin-top: 40px;
+    }
+    
+    
+/* Staff Page Styles (max-width: 500px) ---------------------------------------------------*/
+    
+    .staffCategories {
+       font-size: 20px;   
+    }
+    
+    .staffNameBox {
+      width: 90%;
+      height: 80px;
+      float: none;
+      margin-top: 30px;
+    }
+    
+    .staffNameBox img {
+       width: 80px;   
+    }
+    
+    .staffNameBox h3 {
+       color: #0a0909;
+       font-size: 20px;
+       text-align: center;
+       margin: 25px auto;
+       width: 60%;
+    }
+
+.staffNameBox p {
+    display: none;
+  }
+    
+    
+/* Individual Page Styles (max-width: 500px) ---------------------------------------------------*/
+    
+    .individualGrid1Wrap {
+       margin-left: 7%;   
+    }
+    
+     .individualStaffCertification {
+        clear: left;
+        line-height: 1.7em;
+         font-size: 24px;
+    }
+
+    .individualPageline {
+        width: 80%;
+    }
+   
+   .individualPageTextBox {
+       font-size: 1em;  
+       width: 95%;
+    }
+     
+    .IndividualCharacter {
+       font-size: 28px;   
+    }  
+    
+}
+    
+.background {
+    background-image: url(/images/backpain.png);
+    background-color: transparent;
+}
